@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbsConsolidatedStatementImporter", "DbsConsolidatedStatementImporter\DbsConsolidatedStatementImporter.csproj", "{1951FA3E-D86B-4F4C-B7D0-71A0E9768549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbsConsolidatedStatementImporter", "DbsConsolidatedStatementImporter\DbsConsolidatedStatementImporter.csproj", "{1951FA3E-D86B-4F4C-B7D0-71A0E9768549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbsConsolidatedStatementImporterTestCase", "DbsConsolidatedStatementImporterTestCase\DbsConsolidatedStatementImporterTestCase.csproj", "{40596816-FB12-40F4-A03E-0BFE3697F6F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbsConsolidatedStatementImporterTestCase", "DbsConsolidatedStatementImporterTestCase\DbsConsolidatedStatementImporterTestCase.csproj", "{40596816-FB12-40F4-A03E-0BFE3697F6F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbsConsolidatedStatementImporterTestConsole", "DbsConsolidatedStatementImporterTestConsole\DbsConsolidatedStatementImporterTestConsole.csproj", "{4F833881-221E-493A-8311-905D0843CED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbsConsolidatedStatementImporterTestConsole", "DbsConsolidatedStatementImporterTestConsole\DbsConsolidatedStatementImporterTestConsole.csproj", "{4F833881-221E-493A-8311-905D0843CED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbsConsolidatedStatementImporterBatchJob", "DbsConsolidatedStatementImporterBatchJob\DbsConsolidatedStatementImporterBatchJob.csproj", "{9937EE2A-0BDA-494D-8E89-BCAFD7B7099C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4F833881-221E-493A-8311-905D0843CED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F833881-221E-493A-8311-905D0843CED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F833881-221E-493A-8311-905D0843CED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9937EE2A-0BDA-494D-8E89-BCAFD7B7099C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9937EE2A-0BDA-494D-8E89-BCAFD7B7099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9937EE2A-0BDA-494D-8E89-BCAFD7B7099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9937EE2A-0BDA-494D-8E89-BCAFD7B7099C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
